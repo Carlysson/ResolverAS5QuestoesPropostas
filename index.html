@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2.3</title>
+    
+    <script src="script.js"></script>       
+</head>
+<body>
+    <div>
+    <form>
+    <p id="p1">Questão 1</p>
+        <label>Insira seu nome completo:</label>
+        <input id="inp1" type="text" ><br>
+        <button onclick="nome ()">Exibir Nome</button>
+    
+    <br><br>
+
+    <p id="p2">Questão 2</p>
+        <label>Digite seu nome novamente: </label>
+        <input id="inp2" type="text"><br>
+        <button onclick="quantletras ()">QuantLetras</button>
+
+    </form>
+
+    <br><br>
+
+    <p>Questão 3</p>
+    <img id="img1" src="https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada.jpg?raw=true">
+    
+    <button onclick="acende ()"> Acender </button>
+    <button onclick="apaga ()"> Apagar </button>
+    
+    <br><br>
+
+    <p>Questão 4</p>
+        <label>Valor minimo = 1 | valor maximo = 100</label><br>
+        <input id='minimo' type='text' onKeyPress='return SomenteNumero(event)' required><br>
+        <input id='maximo' type='text' onKeyPress='return SomenteNumero(event)' required><br>
+        <button onclick="enter ()">Enter</button>
+
+    <br><br>
+
+    <p id="p4">Questão 5</p>
+        <label>Digite um número:<input id="inp4" type="text" onKeyPress='return SomenteNumero(event)'></label><br>
+        <button onclick="fatorial ()">Calcular</button>
+    </div>
+</body>
+</html>
